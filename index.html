@@ -7,25 +7,30 @@
     <title>Agenda de Contatos</title>
     <!-- CSS -->
     <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <main class="container">
         <header>
-            <img src="" alt="logotipo da página de uma agenda">
+            <img src="./assets/images/logo.png" alt="logotipo da página de uma agenda">
             <h1>Agenda de Contatos</h1>
         </header>
 
         <form id="form-agenda">
             <input type="text" placeholder="Digite o nome do contato" required id="nome-contato">
             <input type="tel" placeholder="(xx) xxxxx-xxxx" required id="tel-contato">
-            <button type="submit">Adicionar +</button>
+            <button type="submit"><img src="./assets/images/add.png" alt="icone de adicionar">Adicionar</button>
+            <button type="button"><img src="./assets/images/lixeira.png" alt="icone de uma lixeira">Limpar lista</button>
         </form>
 
-        <table>
+        <table cellspacing="0">
             <thead>
                 <tr>
                     <th>Nome contato</th>
-                    <th>Telefone contato</th>
+                    <th>Telefone</th>
                 </tr>
             </thead>
             <tbody>
