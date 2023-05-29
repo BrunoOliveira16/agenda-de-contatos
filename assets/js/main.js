@@ -31,8 +31,8 @@ function formatarNumeroTel(numeroTel) {
 
 // Adicionar Linha na tabela
 function adicionarLinha(){
-    if(nomes.includes(nomeContato.value)) {
-        alert(`O nome ${nomeContato.value} já foi inserido na lista de contatos`)
+    if(nomes.includes(nomeContato.value) || tel.includes(telContato.value)) {
+        alert(`O nome ${nomeContato.value} ou telefone ${telContato.value} já forão inseridos na lista`)
     } else {
         const corpoTabela = document.querySelector('tbody');
         const numeroTelFormatado = formatarNumeroTel(telContato.value)
