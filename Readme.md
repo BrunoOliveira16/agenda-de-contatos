@@ -51,7 +51,7 @@ Este Projeto consiste na criação de um app para agenda de contatos, onde o usu
 <br>
 
 ## 💻 Demonstração
-Para visualizar uma prévia do projeto <a href="#" target="_blank"><b>clique aqui</b></a>
+Para visualizar uma prévia do projeto <a href="https://agenda-de-contatos-lime.vercel.app/" target="_blank"><b>clique aqui</b></a>
 
 <br>
 
