@@ -1,5 +1,7 @@
 # 🏆 Agenda de Contatos
 
+<img src="./assets/images/screenshot.jpg" alt="imagem do projeto">
+
 <br>
 
 ## 📎 Sumario
