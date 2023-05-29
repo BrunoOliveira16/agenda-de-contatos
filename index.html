@@ -20,29 +20,49 @@
         </header>
 
         <form id="form-agenda">
-            <input type="text" placeholder="Digite o nome do contato" required id="nome-contato">
-            <input type="tel" placeholder="(xx) xxxxx-xxxx" required id="tel-contato">
-            <button type="submit"><img src="./assets/images/add.png" alt="icone de adicionar">Adicionar</button>
-            <button type="button"><img src="./assets/images/lixeira.png" alt="icone de uma lixeira">Limpar lista</button>
+            <input 
+                type="text" 
+                placeholder="Digite a URL da foto" 
+                id="foto-contato"
+            >
+            <input 
+                type="text" 
+                placeholder="Digite o nome do contato" 
+                required 
+                id="nome-contato"
+            >
+            <input 
+                type="tel" 
+                placeholder="(xx) xxxxx-xxxx" 
+                required 
+                id="tel-contato"
+                pattern="[0-9]{10,11}"
+            >
+            <button type="submit">
+                <img src="./assets/images/add.png" alt="icone de adicionar">
+                Adicionar
+            </button>
+            <button type="button" onclick="limparTabela()">
+                <img src="./assets/images/lixeira.png" alt="icone de uma lixeira">
+                Limpar lista
+            </button>
         </form>
 
         <table cellspacing="0">
             <thead>
                 <tr>
+                    <th>Foto</th>
                     <th>Nome contato</th>
                     <th>Telefone</th>
                 </tr>
             </thead>
             <tbody>
-                <tr>
-                    <td>Pessoa A</td>
-                    <td>(11) 11111-1111</td>
-                </tr>
+                <!-- HTML gerado via JavaScript -->
             </tbody>
             <tfoot>
                 <tr>
-                    <td>Total de Contatos</td>
-                    <td id="total-contatos">1</td>
+                    <td colspan="2">Total de Contatos</td>
+                    <td id="total-contatos"></td>
                 </tr>
             </tfoot>
         </table>
