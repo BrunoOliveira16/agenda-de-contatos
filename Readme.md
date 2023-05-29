@@ -15,16 +15,18 @@
 <br>
 
 ## 📌 Resumo do Projeto
-Este Projeto consiste na criação de uma app para agenda de contatos, onde o usuário poderá cadastrar o nome do contato e telefone, para serem exibidos em uma tabela de contatos. O projeto será publiado na Vercel.
+Este Projeto consiste na criação de um app para agenda de contatos, onde o usuário poderá cadastrar o nome do contato, telefone e adicionar uma url de imagem, para serem exibidos em uma tabela de contatos. O projeto será publiado na Vercel.
 
 <br>
 
 ## ⭐ Features
+- Opção para adicionar URL de foto do contato;
 - Opção para cadastrar nome do contato;
 - Opção para cadastrar telefone do contato;
 - Tabela para informar todos os contatos cadastrados;
 - Layout simples e elegante;
-- Bloqueio para inserção de telefone de contato duplicado;
+- Bloqueio para inserção de telefone e nome de contato duplicado;
+- Validação de números de 11 digitos (celular) e 10 digitos (Telefone);
 
 <br>
 
@@ -34,8 +36,10 @@ Este Projeto consiste na criação de uma app para agenda de contatos, onde o us
 - Utilização de formulário e tabelas;
 - Utilização de JavaScript para inserir classes CSS de forma dinâmica;
 - Utilização de eventos do JavaScript como click e submit;
-- Utilização de funções JS como splice, includes, toFixed, push e toLowerCase;
+- Utilização de funções JS como splice, includes, length e push;
 - Inserir HTML e valores de forma dinâmica no documento com JavaScript;
+- Validação de campos com regex;
+- Utilização de condicionais JavaScript;
 
 <br>
 
